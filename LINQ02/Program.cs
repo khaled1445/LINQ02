@@ -72,6 +72,20 @@ namespace LINQ02
             //foreach (var g in Sources.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3))
             //    Console.WriteLine($"{g.Key} ({g.Count()})");
             #endregion
+
+            #region Q09 Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
+            
+            //var byCountry =
+            //from c in Sources.CustomerList
+            //group c by c.Country into g
+            //select new
+            //{
+            //    Country = g.Key,
+            //    Count = g.Count(),
+            //    TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
+            //};
+            //foreach (var x in byCountry) Console.WriteLine(x);
+            #endregion
         }
     }
 }
