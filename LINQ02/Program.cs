@@ -116,7 +116,7 @@ namespace LINQ02
             #endregion
 
             #region Q15.Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
-            
+
             //Dictionary<int, Product> productDict = Sources.ProductList.ToDictionary(p => p.ProductID);
             //Console.WriteLine(productDict[18]);
             #endregion
@@ -124,6 +124,13 @@ namespace LINQ02
             #region Q16.Get the first product whose price is greater than $50.
 
             //Console.WriteLine(Sources.ProductList.First(p => p.UnitPrice > 50));
+            #endregion
+
+
+            #region Q17.Try to get the first product with a price > $500.it returns null instead of throwing.
+
+            //var expensive = Sources.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(expensive is null ? "null (no product found)" : expensive.ToString());
             #endregion
 
 
