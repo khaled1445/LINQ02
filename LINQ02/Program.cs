@@ -74,7 +74,7 @@ namespace LINQ02
             #endregion
 
             #region Q09 Using QUERY SYNTAX, group customers by Country, and for each group select { Country, Count, TotalOrderValue }.
-            
+
             //var byCountry =
             //from c in Sources.CustomerList
             //group c by c.Country into g
@@ -85,6 +85,10 @@ namespace LINQ02
             //    TotalOrderValue = g.Sum(c => c.Orders.Sum(o => o.Total))
             //};
             //foreach (var x in byCountry) Console.WriteLine(x);
+            #endregion
+
+            #region Q10 Calculate the total number of units in stock across all products
+            //Console.WriteLine(Sources.ProductList.Sum(p => p.UnitsInStock));
             #endregion
         }
     }
