@@ -18,11 +18,18 @@ namespace LINQ02
             #endregion
 
             #region Q02 show page 2 of products, with page size = 5
-            
+
             //int pageNumber = 2, pageSize = 5;
             //foreach (var p in Sources.ProductList.Skip((pageNumber - 1) * pageSize).Take(pageSize))
             //    Console.WriteLine(p);
+
+            #endregion
+
+            #region Q03 Take products from the list as long as Their UnitPrice is less than $25 (list is ordered by price).
            
+            //foreach (var p in Sources.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25))
+            //Console.WriteLine(p);
+            
             #endregion
         }
     }
