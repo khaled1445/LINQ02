@@ -139,7 +139,12 @@ namespace LINQ02
             //    Console.WriteLine($"7 x {i} = {7 * i}");
             #endregion
 
+            #region Q19.Generate even numbers between 1 and 30.
 
+            //Console.WriteLine(string.Join(", ", Enumerable.Range(1, 30).Where(n => n % 2 == 0)));
+            #endregion
+
+            
         }
     }
 }
