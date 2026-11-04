@@ -133,6 +133,12 @@ namespace LINQ02
             //Console.WriteLine(expensive is null ? "null (no product found)" : expensive.ToString());
             #endregion
 
+            #region Q18.Generate a multiplication table row for 7
+
+            //foreach (var i in Enumerable.Range(1, 10))
+            //    Console.WriteLine($"7 x {i} = {7 * i}");
+            #endregion
+
 
         }
     }
