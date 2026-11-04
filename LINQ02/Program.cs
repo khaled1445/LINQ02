@@ -39,6 +39,12 @@ namespace LINQ02
             //    .All(p => p.UnitsInStock > 0);
             //Console.WriteLine(allSeafoodInStock);
             #endregion
+
+            #region Q05 Check if the ID list contains 9
+            
+            //int[] ids = { 3, 9, 13, 18 };
+            //Console.WriteLine(ids.Contains(9));
+            #endregion
         }
     }
 }
