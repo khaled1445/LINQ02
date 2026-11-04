@@ -66,6 +66,12 @@ namespace LINQ02
             //    foreach (var name in g.Names) Console.WriteLine($"   {name}");
             //}
             #endregion
+
+            #region Q08 Find all categories that have MORE THAN 3 products
+
+            //foreach (var g in Sources.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3))
+            //    Console.WriteLine($"{g.Key} ({g.Count()})");
+            #endregion
         }
     }
 }
