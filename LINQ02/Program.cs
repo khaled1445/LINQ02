@@ -103,6 +103,12 @@ namespace LINQ02
             //    Console.WriteLine(c);
             #endregion
 
+            #region Q13 find product IDs that are in setA but NOT in setB
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //Console.WriteLine(string.Join(", ", setA.Except(setB)));
+            #endregion
+
         }
     }
 }
