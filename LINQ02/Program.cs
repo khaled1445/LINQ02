@@ -115,6 +115,13 @@ namespace LINQ02
             //Console.WriteLine(string.Join(", ", list1.Except(list2, StringComparer.OrdinalIgnoreCase)));
             #endregion
 
+            #region Q15.Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            
+            //Dictionary<int, Product> productDict = Sources.ProductList.ToDictionary(p => p.ProductID);
+            //Console.WriteLine(productDict[18]);
+            #endregion
+
+
         }
     }
 }
