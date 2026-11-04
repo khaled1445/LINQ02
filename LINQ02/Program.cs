@@ -97,6 +97,12 @@ namespace LINQ02
             //Console.WriteLine($"Most expensive: {Sources.ProductList.Max(p => p.UnitPrice):C2}");
             #endregion
 
+            #region Q12 Get a distinct list of all product categories
+
+            //foreach (var c in Sources.ProductList.Select(p => p.Category).Distinct())
+            //    Console.WriteLine(c);
+            #endregion
+
         }
     }
 }
