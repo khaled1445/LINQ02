@@ -109,6 +109,12 @@ namespace LINQ02
             //Console.WriteLine(string.Join(", ", setA.Except(setB)));
             #endregion
 
+            #region Q14 Find countries that appear in list1 but NOT in list2 (case-insensitive).
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //Console.WriteLine(string.Join(", ", list1.Except(list2, StringComparer.OrdinalIgnoreCase)));
+            #endregion
+
         }
     }
 }
